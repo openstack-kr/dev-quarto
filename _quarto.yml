@@ -23,12 +23,23 @@ website:
     right:
       - icon: github
         href: https://github.com/openstack-kr
-      - icon: slack
-        href: https://openstack-kr.slack.com
+        title: "GitHub 저장소"
+      - icon: facebook
+        href: https://www.facebook.com/groups/openstack-kr
+        title: "Facebook 그룹"
+      - icon: discord
+        href: https://discord.gg/3ZzKMJKtPg
+        title: "Discord 채널"
+      - icon: chat-square-text
+        href: https://discord.gg/3ZzKMJKtPg
+        title: "커뮤니티 포럼"
+      
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      - flatly
+      - custom.scss
     toc: true
     lang: ko
+    include-after-body: _footer.html
