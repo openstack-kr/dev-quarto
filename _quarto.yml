@@ -23,16 +23,16 @@ website:
     right:
       - icon: github
         href: https://github.com/openstack-kr
-        title: "GitHub 저장소"
+        aria-label: "GitHub 저장소"
       - icon: facebook
         href: https://www.facebook.com/groups/openstack-kr
-        title: "Facebook 그룹"
+        aria-label: "Facebook 그룹"
       - icon: discord
         href: https://discord.gg/3ZzKMJKtPg
-        title: "Discord 채널"
+        aria-label: "Discord 채널"
       - icon: chat-square-text
         href: https://discord.gg/3ZzKMJKtPg
-        title: "커뮤니티 포럼"
+        aria-label: "커뮤니티 포럼"
       
 
 format:

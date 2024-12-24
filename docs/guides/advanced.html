@@ -38,7 +38,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-04fe17caf2d3e4f81f1aca16fabd10c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-77986266f7ba6f6c8d07b4e45cea89d2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -117,12 +117,22 @@ ul.task-list li input[type="checkbox"] {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/openstack-kr"> <i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/openstack-kr"> <i class="bi bi-github" role="img" aria-label="GitHub 저장소">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://openstack-kr.slack.com"> <i class="bi bi-slack" role="img">
+    <a class="nav-link" href="https://www.facebook.com/groups/openstack-kr"> <i class="bi bi-facebook" role="img" aria-label="Facebook 그룹">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://discord.gg/3ZzKMJKtPg"> <i class="bi bi-discord" role="img" aria-label="Discord 채널">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://discord.gg/3ZzKMJKtPg"> <i class="bi bi-chat-square-text" role="img" aria-label="커뮤니티 포럼">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -279,6 +289,15 @@ mysqldump --all-databases &gt; $BACKUP_DIR/backup-$DATE.sql</code></pre>
 </section>
 
 </main> <!-- /main -->
+<footer class="footer">
+    <div class="container">
+        <p>© <span id="current-year"></span> 오픈인프라 한국 사용자 모임. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+</script> 
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
